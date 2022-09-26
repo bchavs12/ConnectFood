@@ -1,0 +1,62 @@
+/* Header nav */
+nav ul li a:hover{
+    transition: .3s;
+
+    color: var(--tittle-color);
+}
+
+/* logo header */
+.stars_logo:hover {
+    transform: rotate(360deg);
+    
+    
+
+    transition: .8s;
+}
+
+/* Botão explorar do baner */
+#banner button:hover{
+    background-color: var(--tittle-color);
+}
+
+/* buttons cards */
+.card button:hover{
+    transition: .8s;
+
+    background-color: green;
+    transform: scale(1.03)
+}
+.card button:disabled:hover{
+    background-color: var(--disable-color);
+}
+
+/* Details */
+
+/* login */
+#btn:hover{
+    background-color: var(--button-color);
+}
+
+input:invalid:not(:focus):not(:placeholder-shown){
+    border: solid red 2px; 
+}
+
+input:valid{
+    border: solid green 2px; 
+}
+
+/* footer */
+
+/* icones footer */
+.content-integrants div a:hover{
+    transition: 0.5s;
+    
+    transform: scale(1.2);
+}
+
+/* Funcoes de cada integrante */
+.funcao:hover {
+    color: rebeccapurple;
+
+    transition: .3s;
+}
